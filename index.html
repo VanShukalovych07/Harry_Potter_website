@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/main.min.css">
+
     <title>Harry Potter</title>
 
 </head>
@@ -17,12 +18,45 @@
                     Welcome to the world<br>of Harry Potter
                 </h1>
 
-                <button class="main_section__btn">
+                <button type="button" class="modal-btn-open">
                     Show all characters
                 </button>
+            </div>
         </section>
-        </div>
+
     </main>
+    <div class="backdrop is-hidden">
+
+        <div class="modal">
+            <ul>
+                <li>
+                    <article>
+                        <div class="main-cards">
+                            <img class="main-cards__students" src="./images/students.jpg" alt="students">
+                            <button type="button" class="main-cards__button">Студенти Гоґвортсу</button>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                        <div class="main-cards">
+                            <img class="main-cards__personnel" src="./images/personnel.jpg" alt="personnel">
+                            <button type="button" class="main-cards__button">Співробітники Гоґвортсу</button>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                        <div class="main-cards">
+                            <img class="main-cards__characters" src="./images/characters.jpg" alt="characters">
+                            <button type="button" class="main-cards__button">Персонажі в певному будинку</button>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+        </div>
+        <script rel="stylesheet" href="./js/second_page.js"></script>
+    </div>
 
 
 </body>

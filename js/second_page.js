@@ -1,6 +1,18 @@
-const modal = document.querySelector(".backdrop");
-const modalBtnOpen = document.querySelector(".modal-btn-open");
-const modalBtnClose = document.querySelector(".modal-btn-close");
-const toggleModal = () => modal.classList.toggle("is-hidden");
-modalBtnOpen.addEventListener("click", toggleModal);
-modalBtnClose.addEventListener("click", toggleModal);
+const mainMenu = document.querySelector(".main-menu");
+const menuBtnOpen = document.querySelector(".menu-btn-open");
+
+const toggleMenu = () => {
+  mainMenu.classList.toggle("is-open");
+  disableScroll();
+  scrollToMainMenu();
+};
+
+const disableScroll = () =>
+  document.body.classList.toggle("is-scroll-disabled");
+
+const scrollToMainMenu = () => {
+  const mainMenuSection = document.querySelector(".main-menu");
+  mainMenuSection.scrollIntoView({ behavior: "smooth" });
+};
+
+menuBtnOpen.addEventListener("click", toggleMenu);

@@ -1,0 +1,26 @@
+.students-section {
+    background-color: var(--color-main-dark);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+
+    &__students-cards {
+        display: flex;
+        justify-content: center;
+        max-width: 1240px;
+        max-height: 924px;
+        gap: 30px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        flex-wrap: wrap;
+        margin: 70px 30px;
+    }
+
+    &__all-students {
+        display: flex;
+        justify-content: center;
+    }
+}

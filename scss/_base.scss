@@ -52,6 +52,8 @@ ul {
     padding: 0;
 }
 
+
+
 img {
     display: block;
     max-width: 100%;
@@ -66,4 +68,12 @@ img {
 .section {
     margin: 0;
     padding: 100px 130px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 1.25;
+    text-align: center;
+    color: var(--color-main-yellow);
 }

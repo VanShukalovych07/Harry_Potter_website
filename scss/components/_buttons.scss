@@ -32,4 +32,47 @@
     cursor: pointer;
     width: 320px;
     height: 60px;
+
+}
+
+.open-more-info {
+    background-color: transparent;
+    border: none;
+    max-width: 125px;
+    padding: 0;
+}
+
+.students-btn-close {
+    position: absolute;
+    right: 80px;
+    top: 80px;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    fill: var(--color-main-light);
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+
+    :hover {
+        fill: var(--color-main-yellow);
+    }
+}
+
+.close-more-info {
+    position: absolute;
+    right: 12px;
+    top: 15px;
+    fill: var(--color-main-light);
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+
+    :hover {
+        fill: var(--color-main-yellow);
+    }
 }

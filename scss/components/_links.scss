@@ -1,0 +1,13 @@
+ .link {
+     display: flex;
+     justify-content: left;
+     align-items: center;
+     gap: 5px;
+     color: var(--color-main-light);
+     text-decoration: none;
+     transition: color 0.3s;
+
+     &:hover {
+         color: var(--color-main-yellow);
+     }
+ }

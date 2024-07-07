@@ -6,6 +6,7 @@
     bottom: 0;
     right: 0;
     z-index: 1;
+    transition: 0.3s;
 
     &__students-cards {
         display: flex;
@@ -22,5 +23,10 @@
     &__all-students {
         display: flex;
         justify-content: center;
+    }
+
+    &__title {
+        margin-top: 50px;
+        margin-bottom: 0;
     }
 }

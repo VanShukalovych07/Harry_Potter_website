@@ -6,7 +6,8 @@
     bottom: 0;
     right: 0;
     z-index: 1;
-    transition: 0.3s;
+    transition: 0.1s;
+    overflow: auto;
 
     &__students-cards {
         display: flex;

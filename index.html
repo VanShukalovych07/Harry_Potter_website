@@ -52,12 +52,13 @@
             </div>
         </section>
         <section class=" students-section">
+            <!-- is-hidden -->
             <h1 class="students-section__title title">Hogwarts Students</h1>
-            <button type="button" class="students-btn-close">
+            <button type="button" class="students-btn-close" aria-label="Close">
                 <svg width="30" height="30">
                     <use href="./images/icons.svg#icon-cross"></use>
                 </svg>
-                .</button>
+            </button>
             <div class="students-section__all-students">
                 <ul class="students-section__students-cards">
                     <li>
@@ -67,18 +68,18 @@
                             <p class="student-card__text">Gryffindor</p>
                             <p class="student-card__text">31-07-1980</p>
                             <p class="student-card__text">Alive: True</p>
-                            <button class="Harry-btn-open open-more-info">
-                                <a class="link" href="#">More information
-                                    <img class="student-card__arrow" src="./images/arrow.png" alt="Arrow">
-                                </a>
-                            </button>
+
+                            <a class="link harry-btn-open open-more-info" href="#">More information
+                                <img class="student-card__arrow" src="./images/arrow.png" alt="Arrow">
+                            </a>
+
                         </article>
-                        <article class="more-info Harry-info">
-                            <button type="button" class="close-more-info">
+                        <article class="more-info harry-info is-hidden">
+                            <button type="button" class="harry-btn-close close-more-info" aria-label="Close">
                                 <svg width="13" height="13">
                                     <use href="./images/icons.svg#icon-cross"></use>
                                 </svg>
-                                .</button>
+                            </button>
                             <p class="more-info__text">Name: <span>Harry Potter</span></p>
                             <p class="more-info__text">Species: <span>Human</span></p>
                             <p class="more-info__text">Gender: <span>Male</span></p>
@@ -89,7 +90,7 @@
                             <p class="more-info__text">Hair colour: <span>Black</span></p>
                             <p class="more-info__text">Wand: <span>Wood: holly, <br>
                                     core: phoenix feather,<br>
-                                    length: 11</span></p>
+                                    length: 11 inches</span></p>
                             <p class="more-info__text">Patronus: <span>Stag</span></p>
                             <p class="more-info__text">Hogwarts student: <span>True</span></p>
                             <p class="more-info__text">Actor: <span>Daniel Radcliffe</span></p>
@@ -104,8 +105,33 @@
                             <p class="student-card__text">Gryffindor</p>
                             <p class="student-card__text">19-09-1979</p>
                             <p class="student-card__text">Alive: True</p>
-                            <link rel="stylesheet" href="#">
+                            <a class="link hermione-btn-open open-more-info" href="#">More information
+                                <img class="student-card__arrow" src="./images/arrow.png" alt="Arrow">
+                            </a>
                         </article>
+                        <article class="more-info hermione-info is-hidden">
+                            <button type="button" class="hermione-btn-close close-more-info">.
+                                <svg width="13" height="13">
+                                    <use href="./images/icons.svg#icon-cross"></use>
+                                </svg>
+                            </button>
+                            <p class="more-info__text">Name: <span>Hermione Granger</span></p>
+                            <p class="more-info__text">Species: <span>Human</span></p>
+                            <p class="more-info__text">Gender: <span>Female</span></p>
+                            <p class="more-info__text">House: <span>Gryffindor</span></p>
+                            <p class="more-info__text">Date of birth: <span>19-09-1979</span></p>
+                            <p class="more-info__text">Ancestry: <span>Muggle-born</span></p>
+                            <p class="more-info__text">Eye colour: <span>Brown</span></p>
+                            <p class="more-info__text">Hair colour: <span>Brown</span></p>
+                            <p class="more-info__text">Wand: <span>Wood: vine, <br>
+                                    core: dragon heartstring,<br>
+                                    length: 10¾ inches</span></p>
+                            <p class="more-info__text">Patronus: <span>Otter</span></p>
+                            <p class="more-info__text">Hogwarts student: <span>True</span></p>
+                            <p class="more-info__text">Actor: <span>Emma Watson</span></p>
+                            <p class="more-info__text">Alive: <span>True</span></p>
+                        </article>
+
                     </li>
                     <li>
                         <article class="student-card">
@@ -114,8 +140,33 @@
                             <p class="student-card__text">Gryffindor</p>
                             <p class="student-card__text">01-03-1980</p>
                             <p class="student-card__text">Alive: True</p>
-                            <link rel="stylesheet" href="#">
+                            <a class="link ron-btn-open open-more-info" href="#">More information
+                                <img class="student-card__arrow" src="./images/arrow.png" alt="Arrow">
+                            </a>
                         </article>
+                        <article class="more-info ron-info is-hidden">
+                            <button type="button" class="ron-btn-close close-more-info" aria-label="Close">
+                                <svg width="13" height="13">
+                                    <use href="./images/icons.svg#icon-cross"></use>
+                                </svg>
+                            </button>
+                            <p class="more-info__text">Name: <span>Ron Weasley</span></p>
+                            <p class="more-info__text">Species: <span>Human</span></p>
+                            <p class="more-info__text">Gender: <span>Male</span></p>
+                            <p class="more-info__text">House: <span>Gryffindor</span></p>
+                            <p class="more-info__text">Date of birth: <span>01-03-1980</span></p>
+                            <p class="more-info__text">Ancestry: <span>Pure-blood</span></p>
+                            <p class="more-info__text">Eye colour: <span>Blue</span></p>
+                            <p class="more-info__text">Hair colour: <span>Red</span></p>
+                            <p class="more-info__text">Wand: <span>Wood: ash, <br>
+                                    core: unicorn hair,<br>
+                                    length: 12 inches</span></p>
+                            <p class="more-info__text">Patronus: <span>Jack Russell Terrier</span></p>
+                            <p class="more-info__text">Hogwarts student: <span>True</span></p>
+                            <p class="more-info__text">Actor: <span>Rupert Grint</span></p>
+                            <p class="more-info__text">Alive: <span>True</span></p>
+                        </article>
+
                     </li>
                     <li>
                         <article class="student-card">
@@ -124,8 +175,33 @@
                             <p class="student-card__text">Slytherin</p>
                             <p class="student-card__text">05-06-1980</p>
                             <p class="student-card__text">Alive: True</p>
-                            <link rel="stylesheet" href="#">
+                            <a class="link draco-btn-open open-more-info" href="#">More information
+                                <img class="student-card__arrow" src="./images/arrow.png" alt="Arrow">
+                            </a>
                         </article>
+                        <article class="more-info draco-info is-hidden">
+                            <button type="button" class="draco-btn-close close-more-info" aria-label="Close">
+                                <svg width="13" height="13">
+                                    <use href="./images/icons.svg#icon-cross"></use>
+                                </svg>
+                            </button>
+                            <p class="more-info__text">Name: <span>Draco Malfoy</span></p>
+                            <p class="more-info__text">Species: <span>Human</span></p>
+                            <p class="more-info__text">Gender: <span>Male</span></p>
+                            <p class="more-info__text">House: <span>Slytherin</span></p>
+                            <p class="more-info__text">Date of birth: <span>05-06-1980</span></p>
+                            <p class="more-info__text">Ancestry: <span>Pure-blood</span></p>
+                            <p class="more-info__text">Eye colour: <span>Grey</span></p>
+                            <p class="more-info__text">Hair colour: <span>Blonde</span></p>
+                            <p class="more-info__text">Wand: <span>Wood: hawthorn, <br>
+                                    core: unicorn hair,<br>
+                                    length: 10 inches</span></p>
+                            <p class="more-info__text">Patronus: <span>None</span></p>
+                            <p class="more-info__text">Hogwarts student: <span>True</span></p>
+                            <p class="more-info__text">Actor: <span>Tom Felton</span></p>
+                            <p class="more-info__text">Alive: <span>True</span></p>
+                        </article>
+
                     </li>
                     <li>
                         <article class="student-card">
@@ -134,8 +210,33 @@
                             <p class="student-card__text">Hufflepuff</p>
                             <p class="student-card__text">31-07-1980</p>
                             <p class="student-card__text">Alive: False</p>
-                            <link rel="stylesheet" href="#">
+                            <a class="link cedric-btn-open open-more-info" href="#">More information
+                                <img class="student-card__arrow" src="./images/arrow.png" alt="Arrow">
+                            </a>
                         </article>
+                        <article class="more-info cedric-info is-hidden">
+                            <button type="button" class="cedric-btn-close close-more-info" aria-label="Close">
+                                <svg width="13" height="13">
+                                    <use href="./images/icons.svg#icon-cross"></use>
+                                </svg>
+                            </button>
+                            <p class="more-info__text">Name: <span>Cedric Diggory</span></p>
+                            <p class="more-info__text">Species: <span>Human</span></p>
+                            <p class="more-info__text">Gender: <span>Male</span></p>
+                            <p class="more-info__text">House: <span>Hufflepuff</span></p>
+                            <p class="more-info__text">Date of birth: <span>01-09-1977</span></p>
+                            <p class="more-info__text">Ancestry: <span>Pure-blood or Half-blood</span></p>
+                            <p class="more-info__text">Eye colour: <span>Grey</span></p>
+                            <p class="more-info__text">Hair colour: <span>Brown</span></p>
+                            <p class="more-info__text">Wand: <span>Wood: ash, <br>
+                                    core: unicorn hair,<br>
+                                    length: 12¼ inches</span></p>
+                            <p class="more-info__text">Patronus: <span>Unknown</span></p>
+                            <p class="more-info__text">Hogwarts student: <span>True</span></p>
+                            <p class="more-info__text">Actor: <span>Robert Pattinson</span></p>
+                            <p class="more-info__text">Alive: <span>False</span></p>
+                        </article>
+
                     </li>
                     <li>
                         <article class="student-card">
@@ -144,8 +245,31 @@
                             <p class="student-card__text">Ravenclaw</p>
                             <p class="student-card__text">07-04-1979</p>
                             <p class="student-card__text">Alive: True</p>
-                            <link rel="stylesheet" href="#">
+                            <a class="link cho-btn-open open-more-info" href="#">More information
+                                <img class="student-card__arrow" src="./images/arrow.png" alt="Arrow">
+                            </a>
                         </article>
+                        <article class="more-info cho-info is-hidden">
+                            <button type="button" class="cho-btn-close close-more-info" aria-label="Close">
+                                <svg width="13" height="13">
+                                    <use href="./images/icons.svg#icon-cross"></use>
+                                </svg>
+                            </button>
+                            <p class="more-info__text">Name: <span>Cho Chang</span></p>
+                            <p class="more-info__text">Species: <span>Human</span></p>
+                            <p class="more-info__text">Gender: <span>Female</span></p>
+                            <p class="more-info__text">House: <span>Ravenclaw</span></p>
+                            <p class="more-info__text">Date of birth: <span>1978 or 1979</span></p>
+                            <p class="more-info__text">Ancestry: <span>Unknown</span></p>
+                            <p class="more-info__text">Eye colour: <span>Brown</span></p>
+                            <p class="more-info__text">Hair colour: <span>Black</span></p>
+                            <p class="more-info__text">Wand: <span>Unknown</span></p>
+                            <p class="more-info__text">Patronus: <span>Swan</span></p>
+                            <p class="more-info__text">Hogwarts student: <span>True</span></p>
+                            <p class="more-info__text">Actor: <span>Katie Leung</span></p>
+                            <p class="more-info__text">Alive: <span>True</span></p>
+                        </article>
+
                     </li>
                     <li>
                         <article class="student-card">
@@ -154,8 +278,33 @@
                             <p class="student-card__text">Gryffindor</p>
                             <p class="student-card__text">30-07-1980</p>
                             <p class="student-card__text">Alive: True</p>
-                            <link rel="stylesheet" href="#">
+                            <a class="link neville-btn-open open-more-info" href="#">More information
+                                <img class="student-card__arrow" src="./images/arrow.png" alt="Arrow">
+                            </a>
                         </article>
+                        <article class="more-info neville-info is-hidden">
+                            <button type="button" class="neville-btn-close close-more-info" aria-label="Close">
+                                <svg width="13" height="13">
+                                    <use href="./images/icons.svg#icon-cross"></use>
+                                </svg>
+                            </button>
+                            <p class="more-info__text">Name: <span>Neville Longbottom</span></p>
+                            <p class="more-info__text">Species: <span>Human</span></p>
+                            <p class="more-info__text">Gender: <span>Male</span></p>
+                            <p class="more-info__text">House: <span>Gryffindor</span></p>
+                            <p class="more-info__text">Date of birth: <span>30-07-1980</span></p>
+                            <p class="more-info__text">Ancestry: <span>Pure-blood</span></p>
+                            <p class="more-info__text">Eye colour: <span>Blue</span></p>
+                            <p class="more-info__text">Hair colour: <span>Brown</span></p>
+                            <p class="more-info__text">Wand: <span>Wood: cherry, <br>
+                                    core: unicorn hair,<br>
+                                    length: 13 inches</span></p>
+                            <p class="more-info__text">Patronus: <span>Non-corporeal</span></p>
+                            <p class="more-info__text">Hogwarts student: <span>True</span></p>
+                            <p class="more-info__text">Actor: <span>Matthew Lewis</span></p>
+                            <p class="more-info__text">Alive: <span>True</span></p>
+                        </article>
+
                     </li>
                     <li>
                         <article class="student-card">
@@ -164,8 +313,31 @@
                             <p class="student-card__text">Ravenclaw</p>
                             <p class="student-card__text">13-02-1981</p>
                             <p class="student-card__text">Alive: True</p>
-                            <link rel="stylesheet" href="#">
+                            <a class="link luna-btn-open open-more-info" href="#">More information
+                                <img class="student-card__arrow" src="./images/arrow.png" alt="Arrow">
+                            </a>
                         </article>
+                        <article class="more-info luna-info is-hidden">
+                            <button type="button" class="luna-btn-close close-more-info" aria-label="Close">
+                                <svg width="13" height="13">
+                                    <use href="./images/icons.svg#icon-cross"></use>
+                                </svg>
+                            </button>
+                            <p class="more-info__text">Name: <span>Luna Lovegood</span></p>
+                            <p class="more-info__text">Species: <span>Human</span></p>
+                            <p class="more-info__text">Gender: <span>Female</span></p>
+                            <p class="more-info__text">House: <span>Ravenclaw</span></p>
+                            <p class="more-info__text">Date of birth: <span>13-02-1981</span></p>
+                            <p class="more-info__text">Ancestry: <span>Pure-blood or Half-blood</span></p>
+                            <p class="more-info__text">Eye colour: <span>Grey</span></p>
+                            <p class="more-info__text">Hair colour: <span>Blonde</span></p>
+                            <p class="more-info__text">Wand: <span>Unknown</span></p>
+                            <p class="more-info__text">Patronus: <span>Hare</span></p>
+                            <p class="more-info__text">Hogwarts student: <span>True</span></p>
+                            <p class="more-info__text">Actor: <span>Evanna Lynch</span></p>
+                            <p class="more-info__text">Alive: <span>True</span></p>
+                        </article>
+
                     </li>
                 </ul>
             </div>
@@ -174,7 +346,7 @@
 
     <script src="./js/second_page.js"></script>
     <script src="./js/open_student.js"></script>
-    <script src="./js/open_more_info/Harry_card.js"></script>
+    <script src="./js/info_card.js"></script>
 </body>
 
 </html>

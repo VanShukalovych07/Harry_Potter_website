@@ -1,4 +1,4 @@
-.student-card {
+.character-card {
     display: flex;
     flex-direction: column;
     justify-content: end;
@@ -10,6 +10,7 @@
     width: 236px;
     height: 362px;
     padding: 20px;
+    padding-right: 10px;
 
 
     &__image {
@@ -42,4 +43,26 @@
     }
 
 
+}
+
+.harry-info,
+.hermione-info,
+.ron-info,
+.draco-info,
+.minerva-info,
+.severus-info,
+.hagrid-info,
+.lupin-info {
+    top: 220px;
+}
+
+.cedric-info,
+.cho-info,
+.neville-info,
+.luna-info,
+.slughorn-info,
+.umbridge-info,
+.filch-info,
+.dumbledore-info {
+    top: 612px;
 }

@@ -1,4 +1,4 @@
-.students-section {
+.all-characters {
     background-color: var(--color-main-dark);
     position: absolute;
     top: 0;
@@ -6,10 +6,10 @@
     bottom: 0;
     right: 0;
     z-index: 1;
-    transition: 0.1s;
+    transition: 0.3s;
     overflow: auto;
 
-    &__students-cards {
+    &__cards-list {
         display: flex;
         justify-content: center;
         max-width: 1240px;
@@ -21,7 +21,7 @@
         margin: 70px 30px;
     }
 
-    &__all-students {
+    &__group-of-card {
         display: flex;
         justify-content: center;
     }
@@ -31,3 +31,7 @@
         margin-bottom: 0;
     }
 }
+
+// .personnel-section {
+//     z-index: 2;
+// }

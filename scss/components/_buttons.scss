@@ -23,8 +23,8 @@
 }
 
 .students-btn-open,
-.personnel-button,
-.characters-button {
+.personnel-btn-open,
+.characters-btn-open {
     display: flex;
     justify-content: center;
     margin: 0 auto;
@@ -57,7 +57,7 @@
     transition: 0.3s;
 }
 
-.students-btn-close {
+.section-btn-close {
     position: absolute;
     right: 80px;
     top: 80px;

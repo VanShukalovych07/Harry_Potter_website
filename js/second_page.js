@@ -1,6 +1,6 @@
 const mainMenu = document.querySelector(".main-menu");
 const menuBtnOpen = document.querySelector(".menu-btn-open");
-const menuBtnClose = document.querySelector(".menu-btn-close");
+const menuBtnsClose = document.querySelectorAll(".menu-btn-close");
 
 const toggleMenu = () => {
   mainMenu.classList.toggle("is-open");
@@ -17,4 +17,7 @@ const scrollToMainMenu = () => {
 };
 
 menuBtnOpen.addEventListener("click", toggleMenu);
-menuBtnClose.addEventListener("click", toggleMenu);
+
+menuBtnsClose.forEach((btn) => {
+  btn.addEventListener("click", toggleMenu);
+});

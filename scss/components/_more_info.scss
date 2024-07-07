@@ -9,24 +9,11 @@
     padding-left: 10px;
     z-index: 2;
     transition: 0.3s;
+    overflow: auto;
 
 
     &__text {
         color: var(--color-main-light);
         margin-bottom: 2px;
     }
-}
-
-.harry-info,
-.hermione-info,
-.ron-info,
-.draco-info {
-    top: 220px;
-}
-
-.cedric-info,
-.cho-info,
-.neville-info,
-.luna-info {
-    top: 612px;
 }

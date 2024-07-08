@@ -1,112 +1,169 @@
 // Harry
-const Harry = document.querySelector(".harry-info");
-const HarryBtnOpen = document.querySelector(".harry-btn-open");
-const HarryBtnClose = document.querySelector(".harry-btn-close");
-const toggleHarry = () => Harry.classList.toggle("is-hidden");
-HarryBtnOpen.addEventListener("click", toggleHarry);
-HarryBtnClose.addEventListener("click", toggleHarry);
+const harryInfo = document.querySelectorAll(".harry-info");
+const harryBtnOpen = document.querySelectorAll(".harry-btn-open");
+const harryBtnClose = document.querySelectorAll(".harry-btn-close");
+const toggleHarry = () => {
+  harryInfo.forEach((info) => info.classList.toggle("is-hidden"));
+};
+harryBtnOpen.forEach((btn) => btn.addEventListener("click", toggleHarry));
+harryBtnClose.forEach((btn) => btn.addEventListener("click", toggleHarry));
+
 // Hermione
-const Hermione = document.querySelector(".hermione-info");
-const HermioneBtnOpen = document.querySelector(".hermione-btn-open");
-const HermioneBtnClose = document.querySelector(".hermione-btn-close");
-const toggleHermione = () => Hermione.classList.toggle("is-hidden");
-HermioneBtnOpen.addEventListener("click", toggleHermione);
-HermioneBtnClose.addEventListener("click", toggleHermione);
+const hermioneInfo = document.querySelectorAll(".hermione-info");
+const hermioneBtnOpen = document.querySelectorAll(".hermione-btn-open");
+const hermioneBtnClose = document.querySelectorAll(".hermione-btn-close");
+const toggleHermione = () => {
+  hermioneInfo.forEach((info) => info.classList.toggle("is-hidden"));
+};
+hermioneBtnOpen.forEach((btn) => btn.addEventListener("click", toggleHermione));
+hermioneBtnClose.forEach((btn) =>
+  btn.addEventListener("click", toggleHermione)
+);
+
 // Ron
-const Ron = document.querySelector(".ron-info");
-const RonBtnOpen = document.querySelector(".ron-btn-open");
-const RonBtnClose = document.querySelector(".ron-btn-close");
-const toggleRon = () => Ron.classList.toggle("is-hidden");
-RonBtnOpen.addEventListener("click", toggleRon);
-RonBtnClose.addEventListener("click", toggleRon);
+const ronInfo = document.querySelectorAll(".ron-info");
+const ronBtnOpen = document.querySelectorAll(".ron-btn-open");
+const ronBtnClose = document.querySelectorAll(".ron-btn-close");
+const toggleRon = () => {
+  ronInfo.forEach((info) => info.classList.toggle("is-hidden"));
+};
+ronBtnOpen.forEach((btn) => btn.addEventListener("click", toggleRon));
+ronBtnClose.forEach((btn) => btn.addEventListener("click", toggleRon));
+
 // Draco
-const Draco = document.querySelector(".draco-info");
-const DracoBtnOpen = document.querySelector(".draco-btn-open");
-const DracoBtnClose = document.querySelector(".draco-btn-close");
-const toggleDraco = () => Draco.classList.toggle("is-hidden");
-DracoBtnOpen.addEventListener("click", toggleDraco);
-DracoBtnClose.addEventListener("click", toggleDraco);
+const dracoInfo = document.querySelectorAll(".draco-info");
+const dracoBtnOpen = document.querySelectorAll(".draco-btn-open");
+const dracoBtnClose = document.querySelectorAll(".draco-btn-close");
+const toggleDraco = () => {
+  dracoInfo.forEach((info) => info.classList.toggle("is-hidden"));
+};
+dracoBtnOpen.forEach((btn) => btn.addEventListener("click", toggleDraco));
+dracoBtnClose.forEach((btn) => btn.addEventListener("click", toggleDraco));
+
 // Cedric
-const Cedric = document.querySelector(".cedric-info");
-const CedricBtnOpen = document.querySelector(".cedric-btn-open");
-const CedricBtnClose = document.querySelector(".cedric-btn-close");
-const toggleCedric = () => Cedric.classList.toggle("is-hidden");
-CedricBtnOpen.addEventListener("click", toggleCedric);
-CedricBtnClose.addEventListener("click", toggleCedric);
+const cedricInfo = document.querySelectorAll(".cedric-info");
+const cedricBtnOpen = document.querySelectorAll(".cedric-btn-open");
+const cedricBtnClose = document.querySelectorAll(".cedric-btn-close");
+const toggleCedric = () => {
+  cedricInfo.forEach((info) => info.classList.toggle("is-hidden"));
+};
+cedricBtnOpen.forEach((btn) => btn.addEventListener("click", toggleCedric));
+cedricBtnClose.forEach((btn) => btn.addEventListener("click", toggleCedric));
+
 // Cho
-const Cho = document.querySelector(".cho-info");
-const ChoBtnOpen = document.querySelector(".cho-btn-open");
-const ChoBtnClose = document.querySelector(".cho-btn-close");
-const toggleCho = () => Cho.classList.toggle("is-hidden");
-ChoBtnOpen.addEventListener("click", toggleCho);
-ChoBtnClose.addEventListener("click", toggleCho);
+const choInfo = document.querySelectorAll(".cho-info");
+const choBtnOpen = document.querySelectorAll(".cho-btn-open");
+const choBtnClose = document.querySelectorAll(".cho-btn-close");
+const toggleCho = () => {
+  choInfo.forEach((info) => info.classList.toggle("is-hidden"));
+};
+choBtnOpen.forEach((btn) => btn.addEventListener("click", toggleCho));
+choBtnClose.forEach((btn) => btn.addEventListener("click", toggleCho));
+
 // Neville
-const Neville = document.querySelector(".neville-info");
-const NevilleBtnOpen = document.querySelector(".neville-btn-open");
-const NevilleBtnClose = document.querySelector(".neville-btn-close");
-const toggleNeville = () => Neville.classList.toggle("is-hidden");
-NevilleBtnOpen.addEventListener("click", toggleNeville);
-NevilleBtnClose.addEventListener("click", toggleNeville);
+const nevilleInfo = document.querySelectorAll(".neville-info");
+const nevilleBtnOpen = document.querySelectorAll(".neville-btn-open");
+const nevilleBtnClose = document.querySelectorAll(".neville-btn-close");
+const toggleNeville = () => {
+  nevilleInfo.forEach((info) => info.classList.toggle("is-hidden"));
+};
+nevilleBtnOpen.forEach((btn) => btn.addEventListener("click", toggleNeville));
+nevilleBtnClose.forEach((btn) => btn.addEventListener("click", toggleNeville));
+
 // Luna
-const Luna = document.querySelector(".luna-info");
-const LunaBtnOpen = document.querySelector(".luna-btn-open");
-const LunaBtnClose = document.querySelector(".luna-btn-close");
-const toggleLuna = () => Luna.classList.toggle("is-hidden");
-LunaBtnOpen.addEventListener("click", toggleLuna);
-LunaBtnClose.addEventListener("click", toggleLuna);
+const lunaInfo = document.querySelectorAll(".luna-info");
+const lunaBtnOpen = document.querySelectorAll(".luna-btn-open");
+const lunaBtnClose = document.querySelectorAll(".luna-btn-close");
+const toggleLuna = () => {
+  lunaInfo.forEach((info) => info.classList.toggle("is-hidden"));
+};
+lunaBtnOpen.forEach((btn) => btn.addEventListener("click", toggleLuna));
+lunaBtnClose.forEach((btn) => btn.addEventListener("click", toggleLuna));
+
 // Minerva
-const Minerva = document.querySelector(".minerva-info");
-const MinervaBtnOpen = document.querySelector(".minerva-btn-open");
-const MinervaBtnClose = document.querySelector(".minerva-btn-close");
-const toggleMinerva = () => Minerva.classList.toggle("is-hidden");
-MinervaBtnOpen.addEventListener("click", toggleMinerva);
-MinervaBtnClose.addEventListener("click", toggleMinerva);
+const minervaInfo = document.querySelectorAll(".minerva-info");
+const minervaBtnOpen = document.querySelectorAll(".minerva-btn-open");
+const minervaBtnClose = document.querySelectorAll(".minerva-btn-close");
+const toggleMinerva = () => {
+  minervaInfo.forEach((info) => info.classList.toggle("is-hidden"));
+};
+minervaBtnOpen.forEach((btn) => btn.addEventListener("click", toggleMinerva));
+minervaBtnClose.forEach((btn) => btn.addEventListener("click", toggleMinerva));
+
 // Severus
-const Severus = document.querySelector(".severus-info");
-const SeverusBtnOpen = document.querySelector(".severus-btn-open");
-const SeverusBtnClose = document.querySelector(".severus-btn-close");
-const toggleSeverus = () => Severus.classList.toggle("is-hidden");
-SeverusBtnOpen.addEventListener("click", toggleSeverus);
-SeverusBtnClose.addEventListener("click", toggleSeverus);
+const severusInfo = document.querySelectorAll(".severus-info");
+const severusBtnOpen = document.querySelectorAll(".severus-btn-open");
+const severusBtnClose = document.querySelectorAll(".severus-btn-close");
+const toggleSeverus = () => {
+  severusInfo.forEach((info) => info.classList.toggle("is-hidden"));
+};
+severusBtnOpen.forEach((btn) => btn.addEventListener("click", toggleSeverus));
+severusBtnClose.forEach((btn) => btn.addEventListener("click", toggleSeverus));
+
 // Hagrid
-const Hagrid = document.querySelector(".hagrid-info");
-const HagridBtnOpen = document.querySelector(".hagrid-btn-open");
-const HagridBtnClose = document.querySelector(".hagrid-btn-close");
-const toggleHagrid = () => Hagrid.classList.toggle("is-hidden");
-HagridBtnOpen.addEventListener("click", toggleHagrid);
-HagridBtnClose.addEventListener("click", toggleHagrid);
+const hagridInfo = document.querySelectorAll(".hagrid-info");
+const hagridBtnOpen = document.querySelectorAll(".hagrid-btn-open");
+const hagridBtnClose = document.querySelectorAll(".hagrid-btn-close");
+const toggleHagrid = () => {
+  hagridInfo.forEach((info) => info.classList.toggle("is-hidden"));
+};
+hagridBtnOpen.forEach((btn) => btn.addEventListener("click", toggleHagrid));
+hagridBtnClose.forEach((btn) => btn.addEventListener("click", toggleHagrid));
+
 // Lupin
-const Lupin = document.querySelector(".lupin-info");
-const LupinBtnOpen = document.querySelector(".lupin-btn-open");
-const LupinBtnClose = document.querySelector(".lupin-btn-close");
-const toggleLupin = () => Lupin.classList.toggle("is-hidden");
-LupinBtnOpen.addEventListener("click", toggleLupin);
-LupinBtnClose.addEventListener("click", toggleLupin);
+const lupinInfo = document.querySelectorAll(".lupin-info");
+const lupinBtnOpen = document.querySelectorAll(".lupin-btn-open");
+const lupinBtnClose = document.querySelectorAll(".lupin-btn-close");
+const toggleLupin = () => {
+  lupinInfo.forEach((info) => info.classList.toggle("is-hidden"));
+};
+lupinBtnOpen.forEach((btn) => btn.addEventListener("click", toggleLupin));
+lupinBtnClose.forEach((btn) => btn.addEventListener("click", toggleLupin));
+
 // Slughorn
-const Slughorn = document.querySelector(".slughorn-info");
-const SlughornBtnOpen = document.querySelector(".slughorn-btn-open");
-const SlughornBtnClose = document.querySelector(".slughorn-btn-close");
-const toggleSlughorn = () => Slughorn.classList.toggle("is-hidden");
-SlughornBtnOpen.addEventListener("click", toggleSlughorn);
-SlughornBtnClose.addEventListener("click", toggleSlughorn);
+const slughornInfo = document.querySelectorAll(".slughorn-info");
+const slughornBtnOpen = document.querySelectorAll(".slughorn-btn-open");
+const slughornBtnClose = document.querySelectorAll(".slughorn-btn-close");
+const toggleSlughorn = () => {
+  slughornInfo.forEach((info) => info.classList.toggle("is-hidden"));
+};
+slughornBtnOpen.forEach((btn) => btn.addEventListener("click", toggleSlughorn));
+slughornBtnClose.forEach((btn) =>
+  btn.addEventListener("click", toggleSlughorn)
+);
+
 // Umbridge
-const Umbridge = document.querySelector(".umbridge-info");
-const UmbridgeBtnOpen = document.querySelector(".umbridge-btn-open");
-const UmbridgeBtnClose = document.querySelector(".umbridge-btn-close");
-const toggleUmbridge = () => Umbridge.classList.toggle("is-hidden");
-UmbridgeBtnOpen.addEventListener("click", toggleUmbridge);
-UmbridgeBtnClose.addEventListener("click", toggleUmbridge);
+const umbridgeInfo = document.querySelectorAll(".umbridge-info");
+const umbridgeBtnOpen = document.querySelectorAll(".umbridge-btn-open");
+const umbridgeBtnClose = document.querySelectorAll(".umbridge-btn-close");
+const toggleUmbridge = () => {
+  umbridgeInfo.forEach((info) => info.classList.toggle("is-hidden"));
+};
+umbridgeBtnOpen.forEach((btn) => btn.addEventListener("click", toggleUmbridge));
+umbridgeBtnClose.forEach((btn) =>
+  btn.addEventListener("click", toggleUmbridge)
+);
+
 // Filch
-const Filch = document.querySelector(".filch-info");
-const FilchBtnOpen = document.querySelector(".filch-btn-open");
-const FilchBtnClose = document.querySelector(".filch-btn-close");
-const toggleFilch = () => Filch.classList.toggle("is-hidden");
-FilchBtnOpen.addEventListener("click", toggleFilch);
-FilchBtnClose.addEventListener("click", toggleFilch);
+const filchInfo = document.querySelectorAll(".filch-info");
+const filchBtnOpen = document.querySelectorAll(".filch-btn-open");
+const filchBtnClose = document.querySelectorAll(".filch-btn-close");
+const toggleFilch = () => {
+  filchInfo.forEach((info) => info.classList.toggle("is-hidden"));
+};
+filchBtnOpen.forEach((btn) => btn.addEventListener("click", toggleFilch));
+filchBtnClose.forEach((btn) => btn.addEventListener("click", toggleFilch));
+
 // Dumbledore
-const Dumbledore = document.querySelector(".dumbledore-info");
-const DumbledoreBtnOpen = document.querySelector(".dumbledore-btn-open");
-const DumbledoreBtnClose = document.querySelector(".dumbledore-btn-close");
-const toggleDumbledore = () => Dumbledore.classList.toggle("is-hidden");
-DumbledoreBtnOpen.addEventListener("click", toggleDumbledore);
-DumbledoreBtnClose.addEventListener("click", toggleDumbledore);
+const dumbledoreInfo = document.querySelectorAll(".dumbledore-info");
+const dumbledoreBtnOpen = document.querySelectorAll(".dumbledore-btn-open");
+const dumbledoreBtnClose = document.querySelectorAll(".dumbledore-btn-close");
+const toggleDumbledore = () => {
+  dumbledoreInfo.forEach((info) => info.classList.toggle("is-hidden"));
+};
+dumbledoreBtnOpen.forEach((btn) =>
+  btn.addEventListener("click", toggleDumbledore)
+);
+dumbledoreBtnClose.forEach((btn) =>
+  btn.addEventListener("click", toggleDumbledore)
+);

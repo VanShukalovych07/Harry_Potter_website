@@ -44,7 +44,7 @@
                     <li>
                         <article>
                             <img class="main-menu__photo" src="./images/characters.jpg" alt="characters">
-                            <button type="button" class="characters-btn-open menu-btn-close">Characters in a certain
+                            <button type="button" class="house-btn-open menu-btn-close">Characters in a certain
                                 house</button>
                         </article>
                     </li>
@@ -655,11 +655,358 @@
                 </ul>
             </div>
         </section>
+        <section class="all-characters house-section ">
+            <!-- is-hidden -->
+            <h1 class="house-section__title title">Characters in<br>a certain
+                house</h1>
+            <button type="button" class="house-btn-close section-btn-close" aria-label="Close">
+                <svg width="30" height="30">
+                    <use href="./images/icons.svg#icon-cross"></use>
+                </svg>
+            </button>
+            <nav class="houses-nav">
+                <ul class="houses-nav__buttons">
+                    <li class="gryffindor-btn-open active-btn nav-btn"><a href="#" class=" houses-nav__btn ">
+                            <img class="houses-nav__image" src="./images/Gryffindor.png" alt="Gryffindor">
+                            Gryffindor</a></li>
+                    <li class="slytherin-btn-open nav-btn"><a href="#" class="houses-nav__btn ">
+                            <img class="houses-nav__image" src="./images/Slytherin.png" alt="Slytherin">
+                            Slytherin</a></li>
+                    <li class="ravenclaw-btn-open nav-btn"><a href="#" class="houses-nav__btn ">
+                            <img class="houses-nav__image" src="./images/Ravenclaw.png" alt="Ravenclaw">
+                            Ravenclaw</a></li>
+                    <li class="hufflepuff-btn-open nav-btn"><a href="#" class="houses-nav__btn ">
+                            <img class="houses-nav__image" src="./images/Hufflepuff.png" alt="Hufflepuff">
+                            Hufflepuff</a></li>
+                </ul>
+            </nav>
+            <div class="page all-characters__group-of-card gryffindor">
+                <ul class="all-characters__cards-list">
+                    <li>
+                        <article class="character-card">
+                            <img class="character-card__image" src="./images/all_photo/Minerva.jpg"
+                                alt="Minerva McGonagall">
+                            <h2 class="character-card__title">Minerva McGonagall</h2>
+                            <p class="character-card__text">Gryffindor</p>
+                            <p class="character-card__text">04-10-1935</p>
+                            <p class="character-card__text">Alive: True</p>
+
+                            <a class="link minerva-btn-open open-more-info" href="#">More information
+                                <img class="character-card__arrow" src="./images/arrow.png" alt="Arrow">
+                            </a>
+                        </article>
+
+                        <article class="minerva-info-house more-info minerva-info is-hidden">
+                            <button type="button" class="minerva-btn-close close-more-info" aria-label="Close">
+                                <svg width="13" height="13">
+                                    <use href="./images/icons.svg#icon-cross"></use>
+                                </svg>
+                            </button>
+                            <p class="more-info__text">Name: <span>Minerva McGonagall</span></p>
+                            <p class="more-info__text">Species: <span>Human</span></p>
+                            <p class="more-info__text">Gender: <span>Female</span></p>
+                            <p class="more-info__text">House: <span>Gryffindor</span></p>
+                            <p class="more-info__text">Date of birth: <span>04-10-1935</span></p>
+                            <p class="more-info__text">Ancestry: <span>Unknown</span></p>
+                            <p class="more-info__text">Eye colour: <span>Green</span></p>
+                            <p class="more-info__text">Hair colour: <span>Dark Brown</span></p>
+                            <p class="more-info__text">Wand: <span>Wood: fir, <br>
+                                    core: dragon heartstring,<br>
+                                    length: 9.5 inches</span></p>
+                            <p class="more-info__text">Patronus: <span>Tabby Cat</span></p>
+                            <p class="more-info__text">Hogwarts student: <span>Yes</span></p>
+                            <p class="more-info__text">Actor: <span>Maggie Smith</span></p>
+                            <p class="more-info__text">Alive: <span>True</span></p>
+                        </article>
+
+                    </li>
+                    <li>
+                        <article class="character-card">
+                            <img class="character-card__image" src="./images/all_photo/Severus.jpg" alt="Severus Snape">
+                            <h2 class="character-card__title">Severus Snape</h2>
+                            <p class="character-card__text">Slytherin</p>
+                            <p class="character-card__text">09-01-1960</p>
+                            <p class="character-card__text">Alive: False</p>
+
+                            <a class="link severus-btn-open open-more-info" href="#">More information
+                                <img class="character-card__arrow" src="./images/arrow.png" alt="Arrow">
+                            </a>
+                        </article>
+
+                        <article class="severus-info-house more-info severus-info is-hidden">
+                            <button type="button" class="severus-btn-close close-more-info" aria-label="Close">
+                                <svg width="13" height="13">
+                                    <use href="./images/icons.svg#icon-cross"></use>
+                                </svg>
+                            </button>
+                            <p class="more-info__text">Name: <span>Severus Snape</span></p>
+                            <p class="more-info__text">Species: <span>Human</span></p>
+                            <p class="more-info__text">Gender: <span>Male</span></p>
+                            <p class="more-info__text">House: <span>Slytherin</span></p>
+                            <p class="more-info__text">Date of birth: <span>09-01-1960</span></p>
+                            <p class="more-info__text">Ancestry: <span>Half-blood</span></p>
+                            <p class="more-info__text">Eye colour: <span>Black</span></p>
+                            <p class="more-info__text">Hair colour: <span>Black</span></p>
+                            <p class="more-info__text">Wand: <span>Wood: ebony, <br>
+                                    core: dragon heartstring,<br>
+                                    length: 8 inches</span></p>
+                            <p class="more-info__text">Patronus: <span>Doe</span></p>
+                            <p class="more-info__text">Hogwarts student: <span>Yes</span></p>
+                            <p class="more-info__text">Actor: <span>Alan Rickman</span></p>
+                            <p class="more-info__text">Alive: <span>False</span></p>
+                        </article>
+
+
+                    </li>
+                    <li>
+                        <article class="character-card">
+                            <img class="character-card__image" src="./images/all_photo/Hagrid.jpg" alt="Rubeus Hagrid">
+                            <h2 class="character-card__title">Rubeus Hagrid</h2>
+                            <p class="character-card__text">Gryffindor</p>
+                            <p class="character-card__text">06-12-1928</p>
+                            <p class="character-card__text">Alive: <span>True</span></p>
+
+                            <a class="link hagrid-btn-open open-more-info" href="#">More information
+                                <img class="character-card__arrow" src="./images/arrow.png" alt="Arrow">
+                            </a>
+                        </article>
+
+                        <article class="hagrid-info-house more-info hagrid-info is-hidden">
+                            <button type="button" class="hagrid-btn-close close-more-info" aria-label="Close">
+                                <svg width="13" height="13">
+                                    <use href="./images/icons.svg#icon-cross"></use>
+                                </svg>
+                            </button>
+                            <p class="more-info__text">Name: <span>Rubeus Hagrid</span></p>
+                            <p class="more-info__text">Species: <span>Half-Giant</span></p>
+                            <p class="more-info__text">Gender: <span>Male</span></p>
+                            <p class="more-info__text">House: <span>Gryffindor</span></p>
+                            <p class="more-info__text">Date of birth: <span>06-12-1928</span></p>
+                            <p class="more-info__text">Ancestry: <span>Half-blood</span></p>
+                            <p class="more-info__text">Eye colour: <span>Black</span></p>
+                            <p class="more-info__text">Hair colour: <span>Black</span></p>
+                            <p class="more-info__text">Wand: <span>Wood: oak, <br>
+                                    core: dragon heartstring,<br>
+                                    length: 16 inches</span></p>
+                            <p class="more-info__text">Patronus: <span>None</span></p>
+                            <p class="more-info__text">Hogwarts student: <span>Yes</span></p>
+                            <p class="more-info__text">Actor: <span>Robbie Coltrane</span></p>
+                            <p class="more-info__text">Alive: <span>True</span></p>
+                        </article>
+
+
+                    </li>
+                    <li>
+                        <article class="character-card">
+                            <img class="character-card__image" src="./images/all_photo/Lupin.jpg" alt="Remus Lupin">
+                            <h2 class="character-card__title">Remus Lupin</h2>
+                            <p class="character-card__text">Gryffindor</p>
+                            <p class="character-card__text">10-03-1960</p>
+                            <p class="character-card__text">Alive: <span>False</span></p>
+
+                            <a class="link lupin-btn-open open-more-info" href="#">More information
+                                <img class="character-card__arrow" src="./images/arrow.png" alt="Arrow">
+                            </a>
+                        </article>
+
+                        <article class="lupin-info-house more-info lupin-info is-hidden">
+                            <button type="button" class="lupin-btn-close close-more-info" aria-label="Close">
+                                <svg width="13" height="13">
+                                    <use href="./images/icons.svg#icon-cross"></use>
+                                </svg>
+                            </button>
+                            <p class="more-info__text">Name: <span>Remus Lupin</span></p>
+                            <p class="more-info__text">Species: <span>Human</span></p>
+                            <p class="more-info__text">Gender: <span>Male</span></p>
+                            <p class="more-info__text">House: <span>Gryffindor</span></p>
+                            <p class="more-info__text">Date of birth: <span>10-03-1960</span></p>
+                            <p class="more-info__text">Ancestry: <span>Half-blood</span></p>
+                            <p class="more-info__text">Eye colour: <span>Brown</span></p>
+                            <p class="more-info__text">Hair colour: <span>Brown</span></p>
+                            <p class="more-info__text">Wand: <span>Wood: chestnut, <br>
+                                    core: unicorn hair,<br>
+                                    length: 10 inches</span></p>
+                            <p class="more-info__text">Patronus: <span>Wolf</span></p>
+                            <p class="more-info__text">Hogwarts student: <span>Yes</span></p>
+                            <p class="more-info__text">Actor: <span>David Thewlis</span></p>
+                            <p class="more-info__text">Alive: <span>False</span></p>
+                        </article>
+
+
+                    </li>
+                    <li>
+                        <article class="character-card">
+                            <img class="character-card__image" src="./images/all_photo/Slughorn.jpg"
+                                alt="Horace Slughorn">
+                            <h2 class="character-card__title">Horace Slughorn</h2>
+                            <p class="character-card__text">Slytherin</p>
+                            <p class="character-card__text">28-06-1890</p>
+                            <p class="character-card__text">Alive: <span>True</span></p>
+
+                            <a class="link slughorn-btn-open open-more-info" href="#">More information
+                                <img class="character-card__arrow" src="./images/arrow.png" alt="Arrow">
+                            </a>
+                        </article>
+
+                        <article class="slughorn-info-house more-info slughorn-info is-hidden">
+                            <button type="button" class="slughorn-btn-close close-more-info" aria-label="Close">
+                                <svg width="13" height="13">
+                                    <use href="./images/icons.svg#icon-cross"></use>
+                                </svg>
+                            </button>
+                            <p class="more-info__text">Name: <span>Horace Slughorn</span></p>
+                            <p class="more-info__text">Species: <span>Human</span></p>
+                            <p class="more-info__text">Gender: <span>Male</span></p>
+                            <p class="more-info__text">House: <span>Slytherin</span></p>
+                            <p class="more-info__text">Date of birth: <span>28-06-1890</span></p>
+                            <p class="more-info__text">Ancestry: <span>Pure-blood</span></p>
+                            <p class="more-info__text">Eye colour: <span>Brown</span></p>
+                            <p class="more-info__text">Hair colour: <span>Grey</span></p>
+                            <p class="more-info__text">Wand: <span>Unknown</span>
+                            <p class="more-info__text">Patronus: <span>Unknown</span></p>
+                            <p class="more-info__text">Hogwarts student: <span>Yes</span></p>
+                            <p class="more-info__text">Actor: <span>Jim Broadbent</span></p>
+                            <p class="more-info__text">Alive: <span>True</span></p>
+                        </article>
+
+
+                    </li>
+                    <li>
+                        <article class="character-card">
+                            <img class="character-card__image" src="./images/all_photo/Umbridge.jpg"
+                                alt="Dolores Umbridge">
+                            <h2 class="character-card__title">Dolores Umbridge</h2>
+                            <p class="character-card__text">Slytherin</p>
+                            <p class="character-card__text">26-08-1962</p>
+                            <p class="character-card__text">Alive: <span>True</span></p>
+
+                            <a class="link umbridge-btn-open open-more-info" href="#">More information
+                                <img class="character-card__arrow" src="./images/arrow.png" alt="Arrow">
+                            </a>
+                        </article>
+
+                        <article class="umbridge-info-house more-info umbridge-info is-hidden">
+                            <button type="button" class="umbridge-btn-close close-more-info" aria-label="Close">
+                                <svg width="13" height="13">
+                                    <use href="./images/icons.svg#icon-cross"></use>
+                                </svg>
+                            </button>
+                            <p class="more-info__text">Name: <span>Dolores Umbridge</span></p>
+                            <p class="more-info__text">Species: <span>Human</span></p>
+                            <p class="more-info__text">Gender: <span>Female</span></p>
+                            <p class="more-info__text">House: <span>Slytherin</span></p>
+                            <p class="more-info__text">Date of birth: <span>26-08-1962</span></p>
+                            <p class="more-info__text">Ancestry: <span>Half-blood</span></p>
+                            <p class="more-info__text">Eye colour: <span>Brown</span></p>
+                            <p class="more-info__text">Hair colour: <span>Brown</span></p>
+                            <p class="more-info__text">Wand: <span>Unknown</span></p>
+                            <p class="more-info__text">Patronus: <span>Cat</span></p>
+                            <p class="more-info__text">Hogwarts student: <span>Yes</span></p>
+                            <p class="more-info__text">Actor: <span>Imelda Staunton</span></p>
+                            <p class="more-info__text">Alive: <span>True</span></p>
+                        </article>
+
+
+                    </li>
+                    <li>
+                        <article class="character-card">
+                            <img class="character-card__image" src="./images/all_photo/Filch.jpg" alt="Argus Filch">
+                            <h2 class="character-card__title">Argus Filch</h2>
+                            <p class="character-card__text">Slytherin</p>
+                            <p class="character-card__text">Unknown</p>
+                            <p class="character-card__text">Alive: <span>True</span></p>
+
+                            <a class="link filch-btn-open open-more-info" href="#">More information
+                                <img class="character-card__arrow" src="./images/arrow.png" alt="Arrow">
+                            </a>
+                        </article>
+
+                        <article class="filch-info-house more-info filch-info is-hidden">
+                            <button type="button" class="filch-btn-close close-more-info" aria-label="Close">
+                                <svg width="13" height="13">
+                                    <use href="./images/icons.svg#icon-cross"></use>
+                                </svg>
+                            </button>
+                            <p class="more-info__text">Name: <span>Argus Filch</span></p>
+                            <p class="more-info__text">Species: <span>Human</span></p>
+                            <p class="more-info__text">Gender: <span>Male</span></p>
+                            <p class="more-info__text">House: <span>Slytherin</span></p>
+                            <p class="more-info__text">Date of birth: <span>Unknown</span></p>
+                            <p class="more-info__text">Ancestry: <span>Squib</span></p>
+                            <p class="more-info__text">Eye colour: <span>Brown</span></p>
+                            <p class="more-info__text">Hair colour: <span>Grey</span></p>
+                            <p class="more-info__text">Wand: <span>Unknown</span></p>
+                            <p class="more-info__text">Patronus: <span>Unknown</span></p>
+                            <p class="more-info__text">Hogwarts student: <span>Yes</span></p>
+                            <p class="more-info__text">Actor: <span>David Bradley</span></p>
+                            <p class="more-info__text">Alive: <span>True</span></p>
+                        </article>
+
+
+                    </li>
+                    <li>
+                        <article class="character-card">
+                            <img class="character-card__image" src="./images/all_photo/Dumbledore.jpg"
+                                alt="Albus Dumbledore">
+                            <h2 class="character-card__title">Albus Dumbledore</h2>
+                            <p class="character-card__text">Gryffindor</p>
+                            <p class="character-card__text">1881</p>
+                            <p class="character-card__text">Alive: <span>False</span></p>
+
+                            <a class="link dumbledore-btn-open open-more-info" href="#">More information
+                                <img class="character-card__arrow" src="./images/arrow.png" alt="Arrow">
+                            </a>
+                        </article>
+
+                        <article class="dumbledore-info-house more-info dumbledore-info is-hidden">
+                            <button type="button" class="dumbledore-btn-close close-more-info" aria-label="Close">
+                                <svg width="13" height="13">
+                                    <use href="./images/icons.svg#icon-cross"></use>
+                                </svg>
+                            </button>
+                            <p class="more-info__text">Name: <span>Albus Dumbledore</span></p>
+                            <p class="more-info__text">Species: <span>Human</span></p>
+                            <p class="more-info__text">Gender: <span>Male</span></p>
+                            <p class="more-info__text">House: <span>Gryffindor</span></p>
+                            <p class="more-info__text">Date of birth: <span>1881</span></p>
+                            <p class="more-info__text">Ancestry: <span>Half-blood</span></p>
+                            <p class="more-info__text">Eye colour: <span>Blue</span></p>
+                            <p class="more-info__text">Hair colour: <span>Grey</span></p>
+                            <p class="more-info__text">Wand: <span>Elder wood, Thestral tail hair core, 15
+                                    inches</span>
+                            </p>
+                            <p class="more-info__text">Patronus: <span>Phoenix</span></p>
+                            <p class="more-info__text">Hogwarts student: <span>Yes</span></p>
+                            <p class="more-info__text">Actor: <span>Richard Harris, Michael Gambon</span></p>
+                            <p class="more-info__text">Alive: <span>False</span></p>
+                        </article>
+
+
+                    </li>
+                </ul>
+            </div>
+            <div class="page all-characters__group-of-card slytherin is-hidden">
+                <ul class="all-characters__cards-list">
+                    <li><button> 1</button></li>
+                </ul>
+            </div>
+            <div class="page all-characters__group-of-card ravenclaw is-hidden">
+                <ul class="all-characters__cards-list">
+                    <li><button> 2</button></li>
+                </ul>
+            </div>
+            <div class="page all-characters__group-of-card hufflepuff is-hidden">
+                <ul class="all-characters__cards-list">
+                    <li><button> 3</button></li>
+                </ul>
+            </div>
+        </section>
     </main>
 
     <script src="./js/second_page.js"></script>
     <script src="./js/open_pages.js"></script>
     <script src="./js/info_card.js"></script>
+    <script src="./js/_nav_buttons.js"></script>
 </body>
 
 </html>

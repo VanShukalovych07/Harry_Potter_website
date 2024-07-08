@@ -1,6 +1,6 @@
 .second-section {
     padding: 40px;
-
+    transition: opacity 0.3s, visibility 0.3s;
 }
 
 .main-menu {
@@ -12,8 +12,6 @@
     overflow: hidden;
     transform: translateY(0%);
     overflow: auto;
-
-
 
     &__list {
         display: flex;

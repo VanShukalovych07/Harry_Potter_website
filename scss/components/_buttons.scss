@@ -24,7 +24,7 @@
 
 .students-btn-open,
 .personnel-btn-open,
-.characters-btn-open {
+.house-btn-open {
     display: flex;
     justify-content: center;
     margin: 0 auto;
@@ -93,4 +93,8 @@
         transition: 0.2s;
         fill: var(--color-main-yellow);
     }
+}
+
+.nav-btn {
+    transition: 0.5s;
 }

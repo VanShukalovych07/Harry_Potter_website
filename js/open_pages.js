@@ -35,3 +35,18 @@ const togglePersonnel = () => {
 };
 personnelBtnOpen.addEventListener("click", togglePersonnel);
 personnelBtnClose.addEventListener("click", togglePersonnel);
+
+// House
+const house = document.querySelector(".house-section");
+const houseBtnOpen = document.querySelector(".house-btn-open");
+const houseBtnClose = document.querySelector(".house-btn-close");
+const toggleHouse = () => {
+  house.classList.toggle("is-hidden");
+  if (!house.classList.contains("is-hidden")) {
+    document.querySelectorAll(".more-info").forEach((fileContent) => {
+      fileContent.classList.add("is-hidden");
+    });
+  }
+};
+houseBtnOpen.addEventListener("click", toggleHouse);
+houseBtnClose.addEventListener("click", toggleHouse);

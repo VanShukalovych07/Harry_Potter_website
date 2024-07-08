@@ -1,0 +1,43 @@
+.house-section {
+    &__title {
+        margin-top: 50px;
+        margin-bottom: 70px;
+    }
+}
+
+.houses-nav {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1140px;
+    max-height: 59px;
+    border-radius: 100px;
+    border: 1px solid var(--color-secoundary-grey);
+
+
+
+
+    &__buttons {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6%;
+
+    }
+
+    &__btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        width: 234px;
+        height: 58px;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.3;
+        list-style: none;
+        color: var(--color-main-light);
+        text-decoration: none;
+    }
+}

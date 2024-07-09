@@ -1,4 +1,3 @@
-// Функция для скрытия всех страниц и деактивации всех кнопок
 const hideAllPagesAndDeactivateButtons = () => {
   document
     .querySelectorAll(".page")
@@ -15,6 +14,12 @@ const toggleActiveGryffindor = () => {
   hideAllPagesAndDeactivateButtons();
   gryffindor.classList.remove("is-hidden");
   gryffindorBtnOpen.classList.add("active-btn");
+
+  if (!gryffindor.classList.contains("is-hidden")) {
+    document.querySelectorAll(".more-info").forEach((fileContent) => {
+      fileContent.classList.add("is-hidden");
+    });
+  }
 };
 gryffindorBtnOpen.addEventListener("click", toggleActiveGryffindor);
 
@@ -25,6 +30,12 @@ const toggleActiveSlytherin = () => {
   hideAllPagesAndDeactivateButtons();
   slytherin.classList.remove("is-hidden");
   slytherinBtnOpen.classList.add("active-btn");
+
+  if (!slytherin.classList.contains("is-hidden")) {
+    document.querySelectorAll(".more-info").forEach((fileContent) => {
+      fileContent.classList.add("is-hidden");
+    });
+  }
 };
 slytherinBtnOpen.addEventListener("click", toggleActiveSlytherin);
 
@@ -35,6 +46,12 @@ const toggleActiveRavenclaw = () => {
   hideAllPagesAndDeactivateButtons();
   ravenclaw.classList.remove("is-hidden");
   ravenclawBtnOpen.classList.add("active-btn");
+
+  if (!ravenclaw.classList.contains("is-hidden")) {
+    document.querySelectorAll(".more-info").forEach((fileContent) => {
+      fileContent.classList.add("is-hidden");
+    });
+  }
 };
 ravenclawBtnOpen.addEventListener("click", toggleActiveRavenclaw);
 
@@ -45,5 +62,11 @@ const toggleActiveHufflepuff = () => {
   hideAllPagesAndDeactivateButtons();
   hufflepuff.classList.remove("is-hidden");
   hufflepuffBtnOpen.classList.add("active-btn");
+
+  if (!hufflepuff.classList.contains("is-hidden")) {
+    document.querySelectorAll(".more-info").forEach((fileContent) => {
+      fileContent.classList.add("is-hidden");
+    });
+  }
 };
 hufflepuffBtnOpen.addEventListener("click", toggleActiveHufflepuff);

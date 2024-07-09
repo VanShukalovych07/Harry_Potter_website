@@ -167,3 +167,21 @@ dumbledoreBtnOpen.forEach((btn) =>
 dumbledoreBtnClose.forEach((btn) =>
   btn.addEventListener("click", toggleDumbledore)
 );
+// Ginny
+const ginnyInfo = document.querySelectorAll(".ginny-info");
+const ginnyBtnOpen = document.querySelectorAll(".ginny-btn-open");
+const ginnyBtnClose = document.querySelectorAll(".ginny-btn-close");
+const toggleGinny = () => {
+  ginnyInfo.forEach((info) => info.classList.toggle("is-hidden"));
+};
+ginnyBtnOpen.forEach((btn) => btn.addEventListener("click", toggleGinny));
+ginnyBtnClose.forEach((btn) => btn.addEventListener("click", toggleGinny));
+// Sirius
+const siriusInfo = document.querySelectorAll(".sirius-info");
+const siriusBtnOpen = document.querySelectorAll(".sirius-btn-open");
+const siriusBtnClose = document.querySelectorAll(".sirius-btn-close");
+const toggleSirius = () => {
+  siriusInfo.forEach((info) => info.classList.toggle("is-hidden"));
+};
+siriusBtnOpen.forEach((btn) => btn.addEventListener("click", toggleSirius));
+siriusBtnClose.forEach((btn) => btn.addEventListener("click", toggleSirius));

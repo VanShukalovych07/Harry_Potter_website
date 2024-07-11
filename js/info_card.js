@@ -185,3 +185,129 @@ const toggleSirius = () => {
 };
 siriusBtnOpen.forEach((btn) => btn.addEventListener("click", toggleSirius));
 siriusBtnClose.forEach((btn) => btn.addEventListener("click", toggleSirius));
+// Dean Thomas
+const deanInfo = document.querySelectorAll(".dean-info");
+const deanBtnOpen = document.querySelectorAll(".dean-btn-open");
+const deanBtnClose = document.querySelectorAll(".dean-btn-close");
+const toggleDean = () => {
+  deanInfo.forEach((info) => info.classList.toggle("is-hidden"));
+};
+deanBtnOpen.forEach((btn) => btn.addEventListener("click", toggleDean));
+deanBtnClose.forEach((btn) => btn.addEventListener("click", toggleDean));
+// Vincent Crabbe
+const vincentInfo = document.querySelectorAll(".vincent-info");
+const vincentBtnOpen = document.querySelectorAll(".vincent-btn-open");
+const vincentBtnClose = document.querySelectorAll(".vincent-btn-close");
+const toggleVincent = () => {
+  vincentInfo.forEach((info) => info.classList.toggle("is-hidden"));
+};
+vincentBtnOpen.forEach((btn) => btn.addEventListener("click", toggleVincent));
+vincentBtnClose.forEach((btn) => btn.addEventListener("click", toggleVincent));
+// Seamus Finnigan
+const seamusInfo = document.querySelectorAll(".seamus-info");
+const seamusBtnOpen = document.querySelectorAll(".seamus-btn-open");
+const seamusBtnClose = document.querySelectorAll(".seamus-btn-close");
+const toggleSeamus = () => {
+  seamusInfo.forEach((info) => info.classList.toggle("is-hidden"));
+};
+seamusBtnOpen.forEach((btn) => btn.addEventListener("click", toggleSeamus));
+seamusBtnClose.forEach((btn) => btn.addEventListener("click", toggleSeamus));
+// Pansy Parkinson
+const pansyInfo = document.querySelectorAll(".pansy-info");
+const pansyBtnOpen = document.querySelectorAll(".pansy-btn-open");
+const pansyBtnClose = document.querySelectorAll(".pansy-btn-close");
+const togglePansy = () => {
+  pansyInfo.forEach((info) => info.classList.toggle("is-hidden"));
+};
+pansyBtnOpen.forEach((btn) => btn.addEventListener("click", togglePansy));
+pansyBtnClose.forEach((btn) => btn.addEventListener("click", togglePansy));
+// Fred Weasley
+const fredInfo = document.querySelectorAll(".fred-info");
+const fredBtnOpen = document.querySelectorAll(".fred-btn-open");
+const fredBtnClose = document.querySelectorAll(".fred-btn-close");
+const toggleFred = () => {
+  fredInfo.forEach((info) => info.classList.toggle("is-hidden"));
+};
+fredBtnOpen.forEach((btn) => btn.addEventListener("click", toggleFred));
+fredBtnClose.forEach((btn) => btn.addEventListener("click", toggleFred));
+// Gregory Goyle
+const gregoryInfo = document.querySelectorAll(".gregory-info");
+const gregoryBtnOpen = document.querySelectorAll(".gregory-btn-open");
+const gregoryBtnClose = document.querySelectorAll(".gregory-btn-close");
+const toggleGregory = () => {
+  gregoryInfo.forEach((info) => info.classList.toggle("is-hidden"));
+};
+gregoryBtnOpen.forEach((btn) => btn.addEventListener("click", toggleGregory));
+gregoryBtnClose.forEach((btn) => btn.addEventListener("click", toggleGregory));
+// George Weasley
+const georgeInfo = document.querySelectorAll(".george-info");
+const georgeBtnOpen = document.querySelectorAll(".george-btn-open");
+const georgeBtnClose = document.querySelectorAll(".george-btn-close");
+const toggleGeorge = () => {
+  georgeInfo.forEach((info) => info.classList.toggle("is-hidden"));
+};
+georgeBtnOpen.forEach((btn) => btn.addEventListener("click", toggleGeorge));
+georgeBtnClose.forEach((btn) => btn.addEventListener("click", toggleGeorge));
+// Sybill Trelawney
+const sybillInfo = document.querySelectorAll(".sybill-info");
+const sybillBtnOpen = document.querySelectorAll(".sybill-btn-open");
+const sybillBtnClose = document.querySelectorAll(".sybill-btn-close");
+const toggleSybill = () => {
+  sybillInfo.forEach((info) => info.classList.toggle("is-hidden"));
+};
+sybillBtnOpen.forEach((btn) => btn.addEventListener("click", toggleSybill));
+sybillBtnClose.forEach((btn) => btn.addEventListener("click", toggleSybill));
+
+// Pomona Sprout
+const pomonaInfo = document.querySelectorAll(".pomona-info");
+const pomonaBtnOpen = document.querySelectorAll(".pomona-btn-open");
+const pomonaBtnClose = document.querySelectorAll(".pomona-btn-close");
+const togglePomona = () => {
+  pomonaInfo.forEach((info) => info.classList.toggle("is-hidden"));
+};
+pomonaBtnOpen.forEach((btn) => btn.addEventListener("click", togglePomona));
+pomonaBtnClose.forEach((btn) => btn.addEventListener("click", togglePomona));
+
+// Quirinus Quirrell
+const quirrellInfo = document.querySelectorAll(".quirrell-info");
+const quirrellBtnOpen = document.querySelectorAll(".quirrell-btn-open");
+const quirrellBtnClose = document.querySelectorAll(".quirrell-btn-close");
+const toggleQuirrell = () => {
+  quirrellInfo.forEach((info) => info.classList.toggle("is-hidden"));
+};
+quirrellBtnOpen.forEach((btn) => btn.addEventListener("click", toggleQuirrell));
+quirrellBtnClose.forEach((btn) =>
+  btn.addEventListener("click", toggleQuirrell)
+);
+
+// Madam Hooch
+const hoochInfo = document.querySelectorAll(".hooch-info");
+const hoochBtnOpen = document.querySelectorAll(".hooch-btn-open");
+const hoochBtnClose = document.querySelectorAll(".hooch-btn-close");
+const toggleHooch = () => {
+  hoochInfo.forEach((info) => info.classList.toggle("is-hidden"));
+};
+hoochBtnOpen.forEach((btn) => btn.addEventListener("click", toggleHooch));
+hoochBtnClose.forEach((btn) => btn.addEventListener("click", toggleHooch));
+
+// Gilderoy Lockhart
+const gilderoyInfo = document.querySelectorAll(".gilderoy-info");
+const gilderoyBtnOpen = document.querySelectorAll(".gilderoy-btn-open");
+const gilderoyBtnClose = document.querySelectorAll(".gilderoy-btn-close");
+const toggleGilderoy = () => {
+  gilderoyInfo.forEach((info) => info.classList.toggle("is-hidden"));
+};
+gilderoyBtnOpen.forEach((btn) => btn.addEventListener("click", toggleGilderoy));
+gilderoyBtnClose.forEach((btn) =>
+  btn.addEventListener("click", toggleGilderoy)
+);
+
+// Filius Flitwick
+const filiusInfo = document.querySelectorAll(".filius-info");
+const filiusBtnOpen = document.querySelectorAll(".filius-btn-open");
+const filiusBtnClose = document.querySelectorAll(".filius-btn-close");
+const toggleFilius = () => {
+  filiusInfo.forEach((info) => info.classList.toggle("is-hidden"));
+};
+filiusBtnOpen.forEach((btn) => btn.addEventListener("click", toggleFilius));
+filiusBtnClose.forEach((btn) => btn.addEventListener("click", toggleFilius));

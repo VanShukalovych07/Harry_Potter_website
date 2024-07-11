@@ -17,6 +17,8 @@
         border-radius: 18px;
         z-index: -1;
         position: absolute;
+        width: 236px;
+        height: 361px;
         top: 0;
         right: 0;
         left: 0;
@@ -45,6 +47,15 @@
 
 }
 
+
+.hooch-info,
+.quirrell-info,
+.pomona-info,
+.sybill-info,
+.pansy-info,
+.seamus-info,
+.vincent-info,
+.dean-info,
 .harry-info,
 .hermione-info,
 .ron-info,
@@ -52,10 +63,15 @@
 .minerva-info,
 .severus-info,
 .hagrid-info,
+.fred-info,
 .lupin-info {
     top: 212px;
 }
 
+.filius-info,
+.gilderoy-info,
+.george-info,
+.gregory-info,
 .cedric-info,
 .cho-info,
 .neville-info,
@@ -67,25 +83,25 @@
     top: 604px;
 }
 
-.draco-info,
+// .lupin-info-house, 
+.dean-info-house,
+.luna-info-house,
+.cedric-info-house,
+.cho-info-house,
+.draco-info-house,
 .slughorn-info-house,
 .umbridge-info-house,
 .harry-info-house,
 .hermione-info-house,
 .ron-info-house,
 .minerva-info-house,
-.severus-info-house // .lupin-info-house 
-
-    {
+.severus-info-house {
     top: 433px;
 }
 
-// .cedric-info-house,
-// .cho-info-house,
 .neville-info-house,
 .ginny-info-house,
 .sirius-info-house,
-// .luna-info-house,
 // .filch-info-house,
 // .dumbledore-info-house 
 .hagrid-info-house {

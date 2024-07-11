@@ -12,22 +12,23 @@
     &__cards-list {
         display: flex;
         justify-content: center;
-        max-width: 1240px;
-        max-height: 924px;
+        max-width: 1140px;
+        max-height: 755px;
         gap: 30px;
         background-repeat: no-repeat;
         background-size: cover;
         flex-wrap: wrap;
-        margin: 70px 30px;
     }
 
     &__group-of-card {
         display: flex;
+        align-items: center;
         justify-content: center;
+        margin-bottom: 30px;
     }
 
     &__title {
         margin-top: 50px;
-        margin-bottom: 0;
+        margin-bottom: 70px;
     }
 }

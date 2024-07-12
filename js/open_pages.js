@@ -8,15 +8,10 @@ const toggleStudents = () => {
     document.querySelectorAll(".more-info").forEach((fileContent) => {
       fileContent.classList.add("is-hidden");
     });
-    // open second section when students-section was closed
-    // document.querySelectorAll(".main-menu").forEach((fileContent) => {
-    //   fileContent.classList.add("is-open");
-    // });
   }
 };
 studentsBtnOpen.addEventListener("click", toggleStudents);
 studentsBtnClose.addEventListener("click", toggleStudents);
-
 // Personnel
 const personnel = document.querySelector(".personnel-section");
 const personnelBtnOpen = document.querySelector(".personnel-btn-open");
@@ -27,10 +22,6 @@ const togglePersonnel = () => {
     document.querySelectorAll(".more-info").forEach((fileContent) => {
       fileContent.classList.add("is-hidden");
     });
-    // open second section when personnel-section was closed
-    // document.querySelectorAll(".main-menu").forEach((fileContent) => {
-    //   fileContent.classList.add("is-open");
-    // });
   }
 };
 personnelBtnOpen.addEventListener("click", togglePersonnel);

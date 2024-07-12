@@ -108,3 +108,58 @@ document.addEventListener("DOMContentLoaded", function () {
 
   updatePagination();
 });
+//Gryffindor
+document.addEventListener("DOMContentLoaded", function () {
+  const GryffindorPaginationButton1 = document.querySelector(
+    ".gryffindor-pagination-button-1"
+  );
+  const GryffindorPaginationButton2 = document.querySelector(
+    ".gryffindor-pagination-button-2"
+  );
+  const GryffindorPrevButton = document.querySelector(
+    ".carousel-button-gryffindor.prev"
+  );
+  const GryffindorNextButton = document.querySelector(
+    ".carousel-button-gryffindor.next"
+  );
+  const GryffindorPage1 = document.querySelector(".gryffindor-page-1");
+  const GryffindorPage2 = document.querySelector(".gryffindor-page-2");
+
+  function updatePagination() {
+    if (GryffindorPage1.classList.contains("is-hidden")) {
+      GryffindorPaginationButton1.classList.remove("active-pagination");
+      GryffindorPaginationButton2.classList.add("active-pagination");
+      GryffindorNextButton.classList.add("is-hidden");
+      GryffindorPrevButton.classList.remove("is-hidden");
+    } else {
+      GryffindorPaginationButton1.classList.add("active-pagination");
+      GryffindorPaginationButton2.classList.remove("active-pagination");
+      GryffindorNextButton.classList.remove("is-hidden");
+      GryffindorPrevButton.classList.add("is-hidden");
+    }
+  }
+
+  GryffindorNextButton.addEventListener("click", function () {
+    if (!GryffindorPage2.classList.contains("is-hidden")) return;
+    GryffindorPage1.classList.add("is-hidden");
+    GryffindorPage2.classList.remove("is-hidden");
+
+    document.querySelectorAll(".more-info").forEach((fileContent) => {
+      fileContent.classList.add("is-hidden");
+    });
+    updatePagination();
+  });
+
+  GryffindorPrevButton.addEventListener("click", function () {
+    if (!GryffindorPage1.classList.contains("is-hidden")) return;
+    GryffindorPage2.classList.add("is-hidden");
+    GryffindorPage1.classList.remove("is-hidden");
+
+    document.querySelectorAll(".more-info").forEach((fileContent) => {
+      fileContent.classList.add("is-hidden");
+    });
+    updatePagination();
+  });
+
+  updatePagination();
+});

@@ -8,28 +8,42 @@
     z-index: 1;
     transition: 0.3s;
     overflow: auto;
+    height: 100%;
 
     &__cards-list {
         display: flex;
         justify-content: center;
-        max-width: 1140px;
+        max-width: 812px;
         max-height: 755px;
-        gap: 30px;
+        gap: 20px;
         background-repeat: no-repeat;
         background-size: cover;
         flex-wrap: wrap;
+        margin: 0 20px 30px 20px;
+
+
+        @media screen and (min-width: 1300px) {
+            max-width: 1140px;
+            gap: 30px;
+            margin: 0;
+            margin-bottom: 30px;
+        }
     }
 
     &__group-of-card {
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-bottom: 30px;
     }
 
     &__title {
-        margin-top: 50px;
-        margin-bottom: 70px;
+        margin-top: 30px;
+        margin-bottom: 45px;
+
+        @media screen and (min-width: 1300px) {
+            margin-top: 50px;
+            margin-bottom: 70px;
+        }
     }
 }
 

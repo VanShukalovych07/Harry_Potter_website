@@ -140,24 +140,18 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   GryffindorNextButton.addEventListener("click", function () {
+    console.log("Next button clicked");
     if (!GryffindorPage2.classList.contains("is-hidden")) return;
     GryffindorPage1.classList.add("is-hidden");
     GryffindorPage2.classList.remove("is-hidden");
-
-    document.querySelectorAll(".more-info").forEach((fileContent) => {
-      fileContent.classList.add("is-hidden");
-    });
     updatePagination();
   });
 
   GryffindorPrevButton.addEventListener("click", function () {
+    console.log("Prev button clicked");
     if (!GryffindorPage1.classList.contains("is-hidden")) return;
     GryffindorPage2.classList.add("is-hidden");
     GryffindorPage1.classList.remove("is-hidden");
-
-    document.querySelectorAll(".more-info").forEach((fileContent) => {
-      fileContent.classList.add("is-hidden");
-    });
     updatePagination();
   });
 

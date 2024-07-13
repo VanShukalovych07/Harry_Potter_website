@@ -33,13 +33,12 @@ body {
     font-family: 'Inter';
     font-weight: 400;
     margin: 0;
-    font-size: 14px;
+    font-size: 11px;
     line-height: 1.4;
 
-    // @media screen and (min-width: 1280px) {
-    //     font-size: 22px;
-    //     line-height: 1.7;
-    // }
+    @media screen and (min-width: 1300px) {
+        font-size: 14px;
+    }
 }
 
 address {
@@ -67,15 +66,23 @@ img {
 
 .section {
     margin: 0;
-    padding: 100px 130px;
+    padding: 50px 75px;
+
+    @media screen and (min-width: 1300px) {
+        padding: 100px 130px;
+    }
 }
 
 .title {
     font-weight: 700;
-    font-size: 80px;
+    font-size: 58px;
     line-height: 1.15;
     text-align: center;
     color: var(--color-main-yellow);
+
+    @media screen and (min-width: 1300px) {
+        font-size: 80px;
+    }
 }
 
 span {

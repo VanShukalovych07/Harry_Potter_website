@@ -46,7 +46,6 @@ const toggleActiveRavenclaw = () => {
   hideAllPagesAndDeactivateButtons();
   ravenclaw.classList.remove("is-hidden");
   ravenclawBtnOpen.classList.add("active-btn");
-
   if (!ravenclaw.classList.contains("is-hidden")) {
     document.querySelectorAll(".more-info").forEach((fileContent) => {
       fileContent.classList.add("is-hidden");
@@ -62,7 +61,6 @@ const toggleActiveHufflepuff = () => {
   hideAllPagesAndDeactivateButtons();
   hufflepuff.classList.remove("is-hidden");
   hufflepuffBtnOpen.classList.add("active-btn");
-
   if (!hufflepuff.classList.contains("is-hidden")) {
     document.querySelectorAll(".more-info").forEach((fileContent) => {
       fileContent.classList.add("is-hidden");
